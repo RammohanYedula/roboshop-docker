@@ -36,7 +36,7 @@ services:
     - mongodb
 
   cart:
-    image: cart:v1
+    image: cart:1
     container_name: cart
     depends_on:
     - redis
