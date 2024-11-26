@@ -18,7 +18,7 @@ services:
     volumes:
       - source: mongodb
         target: /data/db
-        type: volumes
+        type: volume
 
 
   catalogue:
@@ -45,7 +45,7 @@ services:
     volumes:
       - source: redis
         target: /data
-        type: volumes
+        type: volume
 
   user:
     image: user:1
@@ -88,7 +88,7 @@ services:
       target: /var/lib/rabbitmq
       type: volume
 
-      
+
     
 
   payment:
