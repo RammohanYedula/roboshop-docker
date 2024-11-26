@@ -88,9 +88,6 @@ services:
       target: /var/lib/rabbitmq
       type: volume
 
-
-    
-
   payment:
     container_name: payment
     image: payment:1
